@@ -2,7 +2,8 @@
 
 import numpy as np
 
-a = np.array([[-8, -6], [7, 5]])
+a = np.array([[0, 1, 5], [3, -6, 9], [2, 6, 1]])
+# a = np.array([[-8, -6], [7, 5]])
 print(a)
 
 # untuk melakukan sebuah inverse dalam python menggunakan algoritma lineaj aljabar seperti matematika pada umumnya
@@ -11,6 +12,7 @@ print(a_inverse)
 
 # determinant adalah sebuah value dari variable matrix yang akan dijalankan
 det_a = np.linalg.det(a)
+# untuk mendapatkan nilai determinant harus melakukan inverse terlbih dahulu
 det_i = np.linalg.det(a_inverse)
 print(det_i)
 print(det_a)
